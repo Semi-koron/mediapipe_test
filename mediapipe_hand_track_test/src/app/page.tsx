@@ -3,8 +3,6 @@ import { useEffect, useState, useRef } from "react";
 import { HAND_CONNECTIONS, Hands } from "@mediapipe/hands";
 import { Camera } from "@mediapipe/camera_utils";
 import { drawConnectors, drawLandmarks } from "@mediapipe/drawing_utils";
-import { NextPage } from "next";
-import * as BABYLON from "@babylonjs/core";
 
 type Position = {
   x: number;
